@@ -1,6 +1,8 @@
-OBJS = main.cpp
+OBJS = main.cpp 
 
 CC = g++
+
+COMPILER_FLAGS = -I./json/include
 
 OBJ_NAME = ABBY
 
