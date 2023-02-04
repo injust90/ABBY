@@ -1,0 +1,33 @@
+{
+    "scene1" :
+    {
+        "name":"Begin",
+        "text": "A funny story",
+        "actions" : [
+             {
+                "desc" : "Hi, I am SmarterChild's spirit reincarnated. Bill Gates tried to kill me but he could not",
+                "next": "scene2"
+            },
+            {
+                "desc" : "Death cannot stop that which is remembered.",
+                "next": "scene3"
+            }
+        ]
+    },
+    "scene2" :
+    {
+        "name":"The main part comes here.",
+        "text": "A funny story",
+        "actions" : [
+            {
+                "desc" : "Go to exit.",
+                "next": "scene3"
+            }
+        ]
+    },
+    "scene3" :
+    {
+        "name":"The end.",
+        "text": "Bye"
+    }
+}
