@@ -1,23 +1,28 @@
 {
     "scene1" :
     {
-        "name":"Begin",
-        "text": "A funny story",
+        "name":"ABBY",
+        "text": [
+		"Your adventure begins on a cold winter. You have decided to go to your favorite place in town. The library.\n",
+		"The librarian, Ms. Jenkins is at her post at the front desk. Stern as always she asks \"Back again to make a mess of my shelves?\""
+	],
         "actions" : [
              {
-                "desc" : "Hi, I am SmarterChild's spirit reincarnated. Bill Gates tried to kill me but he could not",
+                "desc" : "1: You strike up a conversation with Ms. Jenkins",
                 "next": "scene2"
             },
             {
-                "desc" : "Death cannot stop that which is remembered.",
+                "desc" : "2: You ignore Ms. Jenkins remarks and carry on through the library",
                 "next": "scene3"
             }
         ]
     },
     "scene2" :
     {
-        "name":"The main part comes here.",
-        "text": "A funny story",
+        "name":"A discussion with the librarian",
+        "text": [
+		"Ms. Jenkins says \"You should check out the back of the library, behind the horror section "
+	],
         "actions" : [
             {
                 "desc" : "Go to exit.",
@@ -27,7 +32,9 @@
     },
     "scene3" :
     {
-        "name":"The end.",
-        "text": "Bye"
+        "name":"Ignorance is not bliss",
+        "text": [
+		"Your adventure ends here. Ignorance is not bliss.\n"
+	]
     }
 }
